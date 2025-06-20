@@ -1,23 +1,23 @@
 # 📊 Extended Vault Alert Bot
 
-Un bot Python simple qui surveille la valeur d’un vault Extended Exchange et envoie une **alerte Telegram** si elle passe sous **7 500 000 $**.
+A lightweight Python bot that monitors the value of the Extended Exchange vault and sends a **Telegram alert** when the value drops below **$7,500,000**.
 
 ---
 
-## 🚀 Fonctionnalités
+## 🚀 Features
 
-- 🔔 Alerte automatique Telegram quand le vault est trop bas
-- 🗣️ Alerte vocale sur l'ordinateur (`say`)
-- 📦 Affichage des données en console
-- 🔒 Sécurisation des secrets avec `.env`
-- ⏱ Vérification toutes les 5 minutes
+- 🔔 Sends a Telegram alert when vault value falls below threshold
+- 🗣️ Plays a voice alert on your computer (`say` command on macOS)
+- 🖥️ Prints vault data in the terminal
+- 🔒 Secured with `.env` for sensitive credentials
+- 🔁 Checks the vault status every 5 minutes
 
 ---
 
 ## ⚙️ Installation
 
-1. **Clone le repo**
+### 1. Clone the repository
 
 ```bash
-git clone https://github.com/ton-user/extended-vault-alert-bot.git
+git clone https://github.com/your-username/extended-vault-alert-bot.git
 cd extended-vault-alert-bot
